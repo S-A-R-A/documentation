@@ -84,4 +84,4 @@ Veja também a lista de [contribuidores](https://github.com/icarojerry/sara/cont
 
 ## Licença
 
-Este projeto está licenciado sobre a GPL-3.0 License - veja o [LICENÇA](LICENÇA) arquivo para detalhes.
+Este projeto está licenciado sobre a GPL-3.0 License - veja a [LICENÇA](LICENÇA) arquivo para detalhes.
