@@ -38,8 +38,7 @@ Install project requirements save in requirements.txt
 pip install -r requirements.txt
 ```
 
-### Initialize Default Data
-> This section is optional. Just run the commands bellow if you want load a default dataset.
+### Initialize DataBase Schema
 
 Create the migration files by running:
 
@@ -50,12 +49,11 @@ python manage.py makemigrations
 and after, apply them:
 
 ```
-python manage.py makemigrations manager
-```
-and
-```
 python manage.py migrate
 ```
+
+### Initialize Default Data
+> This section is optional. Just run the commands bellow if you want load a default dataset.
 
 Run the command bellow to load initial data:
 
