@@ -63,6 +63,12 @@ Run the command bellow to load initial data:
 python manage.py loaddata manager/fixtures/initial_data.json
 ```
 
+If you ran the commands above, you can use a default superuser. See the next section and use this data:
+
+- username: admin
+- password: @dmin123 
+
+
 ### Running
 
 You'll need to create a user with higher permissions, called "super user". To create a super user, run:
