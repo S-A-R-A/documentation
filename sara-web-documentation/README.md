@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Create the migration files by running:
 
 ```
-python manage.py makemigrations
+python manage.py makemigrations manager
 ```
 
 and after, apply them:
