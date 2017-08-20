@@ -38,24 +38,22 @@ Instale os requisitos do projetos, salvos em requirements.txt
 pip install -r requirements.txt
 ```
 
-### Inicializar Dados Padrão
-> Esta seção é opcional. Apenas execute os comandos abaixo se você quer carregar um conjunto de dados padrão.
+### Inicializar o Esquema do Banco de Dados
 
 Crie arquivos de migração, executando:
 
 ```
-python manage.py makemigrations
+python manage.py makemigrations manager
 ```
 
 e, em seguida, aplique-os:
 
 ```
-python manage.py makemigrations manager
-```
-e
-```
 python manage.py migrate
 ```
+
+### Inicializar Dados Padrão
+> Esta seção é opcional. Apenas execute os comandos abaixo se você quer carregar um conjunto de dados padrão.
 
 Execute o comando abaixo para carregar os dados iniciais:
 
@@ -63,9 +61,15 @@ Execute o comando abaixo para carregar os dados iniciais:
 python manage.py loaddata manager/fixtures/initial_data.json
 ```
 
+Se você executou esses comandos acima, você pode usar um super usuário padrão. Veja a próxima seção e use esta esses dados:
+
+- usuário: admin
+- senha: @dmin123
+
+
 ### Executando
 
-Você irá precisar criar um usuário com altas permissões , chamado "super usuário". Para criar um super usuário, execute:
+Você irá precisar criar um usuário com altas permissões, chamado "super usuário". Para criar um super usuário, execute:
 
 ```
 python manage.py createsuperuser
